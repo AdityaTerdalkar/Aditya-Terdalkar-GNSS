@@ -60,6 +60,7 @@ The replay exposed a limitation: the 70 km position jump at 43800 ms passes ever
 Build and run:
 bash
 g++ -std=c++17 test_gnss_processor.cpp gnss_processor.cpp -o test_gnss && ./test_gnss
+
 g++ -std=c++17 replay.cpp gnss_processor.cpp -o replay && ./replay
 
 Process:
